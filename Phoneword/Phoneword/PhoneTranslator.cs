@@ -15,7 +15,7 @@ namespace Core
 
             foreach(var c in raw)
             {
-                if(" -012345679".Contains(c))
+                if(" -0123456789".Contains(c))
                 {
                     newNumber.Append(c);
                 }
